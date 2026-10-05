@@ -1,0 +1,55 @@
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode and caches
+__pycache__/
+*.py[codz]
+*$py.class
+.python-version
+
+# Test, type-checking, and lint caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.hypothesis/
+.tox/
+.nox/
+
+# Coverage reports
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Build and packaging output
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
